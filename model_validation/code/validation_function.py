@@ -28,8 +28,6 @@ if __name__ == '__main__':
     X_full = pd.read_csv('../../input/train_iowa.csv', index_col='Id')
     X_test_full = pd.read_csv('../../input/test_iowa.csv', index_col='Id')
     
-    #iowa_file_path = '../../input/train_iowa.csv'
-    
     # %% Select Data
     
     # Create target object and call it y
